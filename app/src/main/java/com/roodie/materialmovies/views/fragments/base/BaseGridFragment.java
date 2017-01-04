@@ -36,7 +36,7 @@ public abstract class BaseGridFragment<VH extends UltimateRecyclerviewViewHolder
     @Override
     public void onEmptyViewShow(View mView) {
         ImageView icon = (ImageView) mView.findViewById(R.id.empty_screen_icon);
-        icon.setImageResource(R.drawable.ic_compass_white_96dp);
+        icon.setImageResource(R.drawable.poster);
         TextView title = (TextView) mView.findViewById(R.id.empty_screen_title);
         title.setText(R.string.error_no_connection);
         TextView body = (TextView) mView.findViewById(R.id.empty_screen_body);

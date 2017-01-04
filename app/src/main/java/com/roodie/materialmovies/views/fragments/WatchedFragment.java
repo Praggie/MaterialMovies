@@ -116,7 +116,7 @@ public class WatchedFragment extends BaseGridFragment<WatchedGridAdapter.Watched
     @Override
     public void onEmptyViewShow(View mView) {
         ImageView icon = (ImageView) mView.findViewById(R.id.empty_screen_icon);
-        icon.setImageResource(R.drawable.ic_heart_white_96dp);
+        icon.setImageResource(R.drawable.ic_heart_white_24dp);
         TextView title = (TextView) mView.findViewById(R.id.empty_screen_title);
         title.setText(R.string.empty_library_title);
         TextView body = (TextView) mView.findViewById(R.id.empty_screen_body);

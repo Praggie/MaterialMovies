@@ -53,14 +53,14 @@ public class MovieDetailActivityTest {
         registerIdlingResource();
     }
 
-    @Test
+    /*@Test
     public void testLoadMovieInfoView() {
         onView(withId(R.id.recycler_view)).check(matches(not(isDisplayed())));
         onView(withId(R.id.not_available_view)).check(matches(not(isDisplayed())));
 
         onView(withId(R.id.loading_view)).check(matches(isDisplayed()));
         onView(withId(R.id.fanart_image)).check(matches(isDisplayed()));
-    }
+    }*/
 
     @Test
     public void testContainsDetailMovieFragment() {
